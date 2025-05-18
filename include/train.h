@@ -4,7 +4,7 @@
 #define TRAIN_H
 
 class Train {
-private:
+ private:
   struct Car {
     bool light;
     Car* next;
@@ -13,7 +13,7 @@ private:
   int countOp;
   Car* first;
 
-public:
+ public:
   Train();
   ~Train();
   void addCar(bool light);
